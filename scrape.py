@@ -11,6 +11,7 @@ class Scrape:
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
         h = requests.post(self.site, headers=headers)
         logging.log(20,h.text)
+        # Logs the request we get onto another file we specify during the contructor.
     def scrape(self):
         team_array = []  # Initialize empty list to store dictionaries for each team
 
