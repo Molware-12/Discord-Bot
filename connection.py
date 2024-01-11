@@ -24,7 +24,8 @@ async def send_message(message, user_message, private):
 
 # Function to run the Discord bot
 def run_bot():
-    token = "MTE0MDQ3NDE5OTQ1NTA0NzgxMA.GtYf1m.NfMR_jq5iDOD5h5Vo1Qir5Y1VIYF0XLSqTVypA"
+    token = ""
+    # The token is your discord bots password essentially. 
     
     # Creating a Discord client instance with all intents enabled
     client = discord.Client(intents=discord.Intents.all())
