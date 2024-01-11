@@ -1,5 +1,5 @@
 from plasma import Plasma
-from scrap import Scrape
+from scrape import Scrape
 
 def handler(input, team_name=None) -> str:
     p = Plasma()
